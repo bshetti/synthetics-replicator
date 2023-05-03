@@ -3,6 +3,6 @@ heartbeat.monitors:
   name: Replicator HTTP ping
   id: synthetics-replicator-monitor-http
   enabled: true
-  urls: "https://synthetics-replicator.netlify.app/"
+  urls: "https://main--clinquant-sunflower-ef6f9e.netlify.app/"
   schedule: '@every 3m'
   timeout: 16s

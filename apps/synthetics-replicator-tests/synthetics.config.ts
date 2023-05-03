@@ -26,7 +26,7 @@ export default env => {
     },
   };
   if (env === 'production') {
-    config.params = { url: 'https://synthetics-replicator.netlify.app/' }
+    config.params = { url: 'https://main--clinquant-sunflower-ef6f9e.netlify.app/' }
   }
   return config;
 };
