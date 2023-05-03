@@ -20,7 +20,7 @@ export default env => {
      * Project monitors settings
      */
     project: {
-      id: 'synthetics-replicator-tests',
+      id: 'replicator-website-tests',
       url: 'https://364473b79f9e4f5494e8d78ab4d9acfb.us-west2.gcp.elastic-cloud.com:443',
       space: 'default',
     },
