@@ -16,7 +16,7 @@ jobs:
       - run: npm start &
       - run: "npm install @elastic/synthetics && SYNTHETICS_JUNIT_FILE='junit-synthetics.xml' npx @elastic/synthetics . --reporter=junit"
         working-directory: ./apps/synthetics-replicator-tests/journeys
-      - name: Publish Unit Test Results
+      - name: Publish Unit Test Results from Journeys
         uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
