@@ -3,7 +3,7 @@ import type { SyntheticsConfig } from '@elastic/synthetics';
 export default env => {
   const config: SyntheticsConfig = {
     params: {
-      url: 'http://localhost:5173',
+      url: 'https://main--clinquant-sunflower-ef6f9e.netlify.app/',
     },
     playwrightOptions: {
       ignoreHTTPSErrors: false,
@@ -13,7 +13,7 @@ export default env => {
      */
     monitor: {
       schedule: 10,
-      locations: ['united_kingdom'],
+      locations: ['us_east','us_west'],
       privateLocations: [''],
     },
     /**
@@ -21,7 +21,7 @@ export default env => {
      */
     project: {
       id: 'synthetics-replicator-tests',
-      url: 'https://fe8f3eff95d246c6a166d76a9dff6090.uksouth.azure.elastic-cloud.com:443',
+      url: 'https://364473b79f9e4f5494e8d78ab4d9acfb.us-west2.gcp.elastic-cloud.com:443',
       space: 'default',
     },
   };
