@@ -1,0 +1,1 @@
+./README.md:The e2e suite serves locally at http://localhost:5173/ both on your local machine and within the CI job. 
