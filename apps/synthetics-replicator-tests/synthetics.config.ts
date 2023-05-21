@@ -14,7 +14,7 @@ export default env => {
     monitor: {
       schedule: 10,
       locations: ['us_east','us_west'],
-      privateLocations: [''],
+      privateLocations: [],
     },
     /**
      * Project monitors settings
