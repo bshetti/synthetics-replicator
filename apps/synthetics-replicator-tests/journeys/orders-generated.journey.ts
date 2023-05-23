@@ -6,7 +6,7 @@ journey('Recorded Order journey', async ({ page, params }) => {
     // Added monitor config manually without recorder
     monitor.use({
         id: 'synthetics-replicator-monitor-generated',
-        schedule: 5,
+        schedule: 10,
       });
 
   step('Go to order items page', async () => {
