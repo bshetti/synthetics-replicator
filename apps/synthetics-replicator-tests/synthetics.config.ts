@@ -3,7 +3,7 @@ import type { SyntheticsConfig } from '@elastic/synthetics';
 export default env => {
   const config: SyntheticsConfig = {
     params: {
-      url: 'http://localhost:5173',
+      url: 'https://main--clinquant-sunflower-ef6f9e.netlify.app/',
     },
     playwrightOptions: {
       ignoreHTTPSErrors: false,
